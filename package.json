@@ -15,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "yarn build && cd build && git init && git remote add origin git@github.com:Gosha/react-reveal-circle.git && git add . && git commit -m deploy && git push -f --set-upstream origin master",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
