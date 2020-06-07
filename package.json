@@ -1,6 +1,8 @@
 {
   "name": "circle-open",
   "version": "0.1.0",
+  "homepage": "https://gosha.github.io/react-reveal-circle/",
+  "repository": "https://github.com/Gosha/react-reveal-circle",
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.28",
