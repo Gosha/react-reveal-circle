@@ -1,3 +1,9 @@
+# Output
+
+See output [here](https://gosha.github.io/react-reveal-circle/)
+
+# cra boiler docs:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

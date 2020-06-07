@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          See source <a href="https://github.com/Gosha/react-reveal-circle">here</a>
         </p>
         <a
           className="App-link"
