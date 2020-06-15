@@ -4,10 +4,15 @@ import "./App.css"
 import Overlay from "./Overlay"
 
 function App() {
+  const [key, setKey] = React.useState(1)
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          <button onClick={() => setKey((key) => key + 1)}>Again</button>
+        </p>
         <p>
           See source <a href="https://github.com/Gosha/react-reveal-circle">here</a>
         </p>
@@ -20,7 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Overlay />
+      <Overlay key={key} />
     </div>
   )
 }
