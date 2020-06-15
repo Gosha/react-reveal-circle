@@ -10,6 +10,7 @@ import {
 import * as d3 from "d3-ease"
 
 const Overlay: React.FC = () => {
+  const [hidden, setHidden] = React.useState(false)
   const wh = 1000
   const from = {
     x: 0,
@@ -41,22 +42,25 @@ const Overlay: React.FC = () => {
     },
     delay: 200,
     onRest() {
-      console.log("done")
+      setHidden(true)
     },
   })
 
   return (
     <animated.svg
-      css={{
-        position: "absolute",
-        left: 0,
-        right: 0,
-        top: 0,
-        bottom: 0,
-        height: "100vh",
-        width: "100vw",
-        zIndex: 1000,
-      }}
+      css={[
+        {
+          position: "absolute",
+          left: 0,
+          right: 0,
+          top: 0,
+          bottom: 0,
+          height: "100vh",
+          width: "100vw",
+          zIndex: 1000,
+        },
+        hidden ? { display: "none" } : {},
+      ]}
       preserveAspectRatio={"xMidYMid slice"}
       viewBox={`0 0 ${wh} ${wh}`}
     >
