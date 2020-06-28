@@ -15,7 +15,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "true",
     "deploy": "yarn build && cd build && git init && git remote add origin git@github.com:Gosha/react-reveal-circle.git && git add . && git commit -m deploy && git push -f --set-upstream origin master",
     "eject": "react-scripts eject"
   },
@@ -40,11 +40,7 @@
     }
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.10.1",
-    "@testing-library/react": "^10.4.3",
-    "@testing-library/user-event": "^12.0.9",
     "@types/d3-ease": "^1.0.9",
-    "@types/jest": "^26.0.3",
     "@types/node": "^14.0.14",
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.0",
