@@ -5,7 +5,7 @@
   "repository": "https://github.com/Gosha/react-reveal-circle",
   "private": true,
   "dependencies": {
-    "@emotion/core": "^10.0.28",
+    "@emotion/core": "^10.0.34",
     "d3-ease": "^1.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
