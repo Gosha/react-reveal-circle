@@ -48,6 +48,6 @@
     "prettier": "^2.1.0",
     "pretty-quick": "^3.0.0",
     "react-scripts": "3.4.3",
-    "typescript": "~3.9.7"
+    "typescript": "~4.0.2"
   }
 }
