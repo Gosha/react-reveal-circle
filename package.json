@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "true",
     "deploy": "yarn build && cd build && git init && git remote add origin git@github.com:Gosha/react-reveal-circle.git && git add . && git commit -m deploy && git push -f --set-upstream origin master",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "husky install"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,11 +34,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   },
   "devDependencies": {
     "@types/d3-ease": "^2.0.0",
