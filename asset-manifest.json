@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-reveal-circle/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/react-reveal-circle/static/js/main.4389b569.chunk.js",
+    "main.js.map": "/react-reveal-circle/static/js/main.4389b569.chunk.js.map",
+    "runtime-main.js": "/react-reveal-circle/static/js/runtime-main.ccbbab2e.js",
+    "runtime-main.js.map": "/react-reveal-circle/static/js/runtime-main.ccbbab2e.js.map",
+    "static/js/2.33e93cf5.chunk.js": "/react-reveal-circle/static/js/2.33e93cf5.chunk.js",
+    "static/js/2.33e93cf5.chunk.js.map": "/react-reveal-circle/static/js/2.33e93cf5.chunk.js.map",
+    "index.html": "/react-reveal-circle/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/react-reveal-circle/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.33e93cf5.chunk.js.LICENSE.txt": "/react-reveal-circle/static/js/2.33e93cf5.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/react-reveal-circle/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccbbab2e.js",
+    "static/js/2.33e93cf5.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.4389b569.chunk.js"
+  ]
+}
