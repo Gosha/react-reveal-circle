@@ -9,7 +9,7 @@
     "d3-ease": "^3.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-spring": "^9.4.4"
+    "react-spring": "^9.4.5"
   },
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
