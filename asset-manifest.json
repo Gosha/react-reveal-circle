@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-reveal-circle/static/css/main.073c9b0a.css",
+    "main.js": "/react-reveal-circle/static/js/main.8f9c4cb8.js",
+    "static/media/logo.svg": "/react-reveal-circle/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/react-reveal-circle/index.html",
+    "main.073c9b0a.css.map": "/react-reveal-circle/static/css/main.073c9b0a.css.map",
+    "main.8f9c4cb8.js.map": "/react-reveal-circle/static/js/main.8f9c4cb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8f9c4cb8.js"
+  ]
+}
